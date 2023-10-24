@@ -1,5 +1,5 @@
 # Arduino Halloween Witch
-Fun Halloween toy made in Arduino whichs detects people presence and plays a witch audio and activates a servo motor. 
+Fun Halloween toy made in Arduino whichs detects people presence and plays an audio of a witch laughing. 
 
 ![image](https://github.com/vitorccs/arduino-halloween-witch/assets/9891961/c8869ce1-a40a-4559-9e07-06a2c4c21a3c)
 
