@@ -6,11 +6,11 @@ Fun Halloween toy made in Arduino whichs detects people presence and plays a wit
 ## Description
 ![ArduinoHalloween_bb](https://github.com/vitorccs/arduino-halloween-witch/assets/9891961/438a9ba2-e9ba-4de0-9060-833ce816f3ac)
 
-This is a Platform IO IDE project coded in C++.
+This is a [Platform IO IDE](https://platformio.org/platformio-ide) project coded in C++.
 
-Once a person is detected, the Arduino will firstly open and close the witch legs twice, and afterwards will play an audio of witch laughing.
+Once a person is detected, the Arduino will firstly open and close the witch legs twice, and afterwards will play an audio of a witch laughing.
 
-Note: when using 04 AAA batteries (1.5v each, total 6v), you should connect the positive cable to the "VIN" pin since it has a built-in voltage regulator. However, with 04 rechargable batteries (1.3v each, total 5.5v) it is acceptable to place the cable in "5v" pin.
+Note: when using 04 AAA batteries (1.5v each, total 6v), you should connect the positive cable to the "VIN" pin since it has a built-in voltage regulator. However, with 04 rechargable batteries (1.3v each, total 5.5v) it is acceptable to place the cable in "5v" pin. See [Arduino docs](https://docs.arduino.cc/learn/electronics/power-pins#vin-pin).
 
 ## Components
 * 01 - HC-SR04 Ultrasonic sensor
@@ -25,7 +25,7 @@ Platform IO is a plugin for Microsoft Virtual Studio Code. It is a more robust I
 
 ## Steps to change the audio sample
 1) Download and install [Audacity](https://www.audacityteam.org/download/)
-2) Import a MP3 file and export a new version in 8KHz in modo mode. The file should not exceeds  50
+2) Import a MP3 file and export a new version in 8KHz in modo mode. The file should not exceeds 30. bytes.
 3) Download the encoder program for your operating system:
     * [EncodeAudio - Windows.zip](https://github.com/vitorccs/arduino-halloween-witch/files/13110714/EncodeAudio-windows.zip)
     * [EncodeAudio - MacoOSX.zip](https://github.com/vitorccs/arduino-halloween-witch/files/13110716/EncodeAudio-macosx.zip)
