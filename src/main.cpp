@@ -37,7 +37,7 @@ void loop() {
   Serial.println(distance);
 
   if (distance <= BUZZER_DISTANCE) {
-    Serial.println('tocando');
+    Serial.println('person detected');
     shakeLegs();
     shakeLegs();
 

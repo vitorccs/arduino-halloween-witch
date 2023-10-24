@@ -33,7 +33,7 @@ Platform IO is a plugin for Microsoft Virtual Studio Code. It is a more robust I
 4) Unzip and run the application.
 5) The application will prompt you to input an audio file. Select the audio file you have just created in the previous steps.
 6) After a few seconds, the program will copy the enconded data to your clipboard
-7) In the `main.cpp` file, delete the contents of `PROGMEM` array and paste the content from your clipboard. The data is a a very large sequence of numbers.
+7) In the `main.cpp` file, delete the contents of `sample[]` array and paste the content from your clipboard. The data is a a very large sequence of numbers.
 
 Sources:
 * https://www.codrey.com/arduino-projects/arduino-pcm-audio-primer/
