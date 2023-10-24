@@ -1,7 +1,14 @@
 # Arduino Halloween Witch
 Fun Halloween toy made in Arduino whichs detects people presence and plays a witch audio and activates a servo motor. 
 
+![image](https://github.com/vitorccs/arduino-halloween-witch/assets/9891961/c8869ce1-a40a-4559-9e07-06a2c4c21a3c)
+
+## Description
 ![ArduinoHalloween_bb](https://github.com/vitorccs/arduino-halloween-witch/assets/9891961/438a9ba2-e9ba-4de0-9060-833ce816f3ac)
+
+This is a Platform IO IDE project coded in C++.
+
+Once a person is detected, the Arduino will firstly open and close the witch legs twice, and afterwards will play an audio of witch laughing.
 
 Note: when using 04 AAA batteries (1.5v each, total 6v), you should connect the positive cable to the "VIN" pin since it has a built-in voltage regulator. However, with 04 rechargable batteries (1.3v each, total 5.5v) it is acceptable to place the cable in "5v" pin.
 
