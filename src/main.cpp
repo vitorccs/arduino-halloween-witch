@@ -6,7 +6,7 @@
 #define PIN_ECHO 6
 #define PIN_TRIGGER 5
 #define PIN_SERVO 9
-#define BUZZER_DISTANCE 60
+#define BUZZER_DISTANCE 80
 
 PWMServo servoMotor;
 unsigned int interval, distance;
