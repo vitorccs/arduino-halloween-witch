@@ -25,7 +25,7 @@ Platform IO is a plugin for Microsoft Virtual Studio Code. It is a more robust I
 
 ## Steps to change the audio sample
 1) Download and install [Audacity](https://www.audacityteam.org/download/)
-2) Import a MP3 file and export a new version in 8KHz in modo mode. The file should not exceed 30.000 bytes.
+2) Import a MP3 file and export a new version in 8KHz in mono mode. The file should not exceed 30.000 bytes.
 3) Download the encoder program for your operating system:
     * [EncodeAudio - Windows.zip](https://github.com/vitorccs/arduino-halloween-witch/files/13110714/EncodeAudio-windows.zip)
     * [EncodeAudio - MacoOSX.zip](https://github.com/vitorccs/arduino-halloween-witch/files/13110716/EncodeAudio-macosx.zip)

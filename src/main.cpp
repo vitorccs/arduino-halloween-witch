@@ -33,11 +33,13 @@ void setup() {
 
 void loop() {
   distance = getDistance(PIN_TRIGGER, PIN_ECHO);
-  Serial.print('distance ');
+  Serial.print("distance is ");
   Serial.println(distance);
 
-  if (distance <= BUZZER_DISTANCE) {
-    Serial.println('person detected');
+  if (distance > 0 && distance <= BUZZER_DISTANCE) {
+    Serial.print("person detected at ");
+    Serial.println(distance);
+
     shakeLegs();
     shakeLegs();
 
