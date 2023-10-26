@@ -6,7 +6,7 @@ Fun Halloween toy made in Arduino which detects human presence and plays an audi
 ## Video footage
 Note: Before playing the video below, you must enable the sound by clicking on the toolbar button with a speaker icon:
 
-[video.webm](https://github.com/vitorccs/arduino-halloween-witch/assets/9891961/7db5073f-574d-4b5b-8d4f-bd07080acd24)
+[video.webm](https://github.com/vitorccs/arduino-halloween-witch/assets/9891961/8df2df78-2068-4461-9dc9-b7e5add590b6)
 
 ## Description
 ![ArduinoHalloween_bb](https://github.com/vitorccs/arduino-halloween-witch/assets/9891961/438a9ba2-e9ba-4de0-9060-833ce816f3ac)
