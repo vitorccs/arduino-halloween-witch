@@ -15,7 +15,7 @@ This is a [Platform IO IDE](https://platformio.org/platformio-ide) project coded
 
 Once a person is detected, the Arduino will firstly open and close the witch's legs twice, and afterwards will play an audio of a witch laughing.
 
-Note: when using 04 AAA batteries (1.5v each, total 6v), you should connect the positive cable to the "VIN" pin since it has a built-in voltage regulator. However, with 04 rechargeable batteries (1.3v each, total 5.5v) it is acceptable to place the cable in "5v" pin. See [Arduino docs](https://docs.arduino.cc/learn/electronics/power-pins#vin-pin).
+Note: when using 04 AAA batteries (1.5v each, total 6v), you should connect the positive cable to the "VIN" pin since it has a built-in voltage regulator. However, with 04 rechargeable batteries (1.2v each, total 4.8v) it is acceptable to place the cable in "5v" pin. See [Arduino docs](https://docs.arduino.cc/learn/electronics/power-pins#vin-pin).
 
 ## Components
 * 01 - HC-SR04 Ultrasonic sensor
