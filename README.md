@@ -45,15 +45,16 @@ Find below the components used to create the legs movement:
 
 ## Steps to change the audio sample
 1) Download and install [Audacity](https://www.audacityteam.org/download/)
-2) Import a MP3 file and export a new version in 8KHz in mono mode. The file should not exceed 30.000 bytes.
-3) Download the encoder program for your operating system:
+2) Import the MP3 audio and make the audio louder (Effect > Amplify)
+3) Export a new version in 8KHz in mono mode. The file should not exceed 30.000 bytes.
+4) Download the encoder program for your operating system:
     * [EncodeAudio - Windows.zip](https://github.com/vitorccs/arduino-halloween-witch/files/13110714/EncodeAudio-windows.zip)
     * [EncodeAudio - MacoOSX.zip](https://github.com/vitorccs/arduino-halloween-witch/files/13110716/EncodeAudio-macosx.zip)
     * [EncodeAudio - Linux.zip](https://github.com/vitorccs/arduino-halloween-witch/files/13110717/EncodeAudio-linux.zip)
-4) Unzip and run the application.
-5) The application will prompt you to input an audio file. Select the audio file you have just created in the previous steps.
-6) After a few seconds, the program will copy the encoded data to your clipboard
-7) In the `main.cpp` file, delete the contents of `sample[]` array and paste the content from your clipboard. The data is a a very large sequence of numbers.
+5) Unzip and run the application.
+6) The application will prompt you to input an audio file. Select the audio file you have just created in the previous steps.
+7) After a few seconds, the program will copy the encoded data to your clipboard
+8) In the `main.cpp` file, delete the contents of `sample[]` array and paste the content from your clipboard. The data is a a very large sequence of numbers.
 
 Sources:
 * https://www.codrey.com/arduino-projects/arduino-pcm-audio-primer/
